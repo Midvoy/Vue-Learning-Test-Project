@@ -1,5 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div v-bind:class="msg">
+    <h1>测试</h1>
   </div>
 </template>
+
+
+<script>
+export default{
+  data(){
+    return{
+      msg:"about"
+    }
+  }
+
+}
+
+
+</script>
