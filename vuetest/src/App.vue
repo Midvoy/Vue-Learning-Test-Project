@@ -1,10 +1,18 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/asset">农资管理</router-link> |
+    <router-link to="/product">商品管理</router-link>
   </nav>
   <router-view/>
+
+
 </template>
+
+<script>
+
+</script>
 
 <style>
 #app {
@@ -28,3 +36,5 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
+
