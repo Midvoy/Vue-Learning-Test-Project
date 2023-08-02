@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/asset">农资管理</router-link> |
-    <router-link to="/product">商品管理</router-link>
+    <router-link to="/product">商品管理</router-link> |
+    <router-link to="/map">地图API使用</router-link> 
+
   </nav>
   <router-view/>
 

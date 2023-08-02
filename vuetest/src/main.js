@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import Antd from 'ant-design-vue';
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -10,4 +11,4 @@ import 'element-plus/dist/index.css'
 
 const pinia =createPinia()
 
-createApp(App).use(pinia).use(store).use(router).use(ElementPlus).mount('#app')
+createApp(App).use(Antd).use(pinia).use(store).use(router).use(ElementPlus).mount('#app')
